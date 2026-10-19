@@ -141,7 +141,7 @@ For the full explanation and known reproducibility limitations, see **[docs/REPR
 A comprehensive technical report accompanies this repository, presenting the mathematical foundations, numerical methodology, experimental results, and analysis of inverse heat-source reconstruction.
 
 The report covers finite-difference discretization and convergence, source identification, Tikhonov regularization, numerical conditioning, and discrete adjoint optimization.
-[** You can read the full technical report (PDF)**](report/Inverse_Heat_Source_Reconstruction_Technical_Report.pdf.pdf). 
+[**You can read the full technical report (PDF)**](report/Inverse_Heat_Source_Reconstruction_Technical_Report.pdf). 
 
 ## Key references
 
