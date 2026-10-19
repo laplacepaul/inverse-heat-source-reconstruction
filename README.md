@@ -23,7 +23,7 @@ $$
 After numerically solving the heat equation for each basis response and sampling temperature at selected sensors and times, the inverse model becomes
 
 $$
-\mathbf d=A\boldsymbol\theta+\boldsymbol\varepsilon,
+\mathbf d=A\boldsymbol\theta^{\star}+\boldsymbol\varepsilon,
 $$
 
 where $A$ is the source-to-observation response matrix, $\mathbf d$ is the observed temperature vector, and $\boldsymbol\varepsilon$ is measurement noise. Predicted observations from an estimated source are $\widehat{\mathbf d}=A\widehat{\boldsymbol\theta}$.
@@ -31,7 +31,7 @@ where $A$ is the source-to-observation response matrix, $\mathbf d$ is the obser
 We estimate source coefficients through least squares and zero-order Tikhonov regularization:
 
 $$
-\widehat{\boldsymbol\theta}_\lambda=\underset{\boldsymbol\theta}{\operatorname{argmin}}\left[\frac{1}{2m}\left\|A\boldsymbol\theta-\mathbf d\right\|_2^2+\frac\lambda2\left\|\boldsymbol\theta\right\|_2^2\right].
+\widehat{\boldsymbol\theta}_\lambda=\underset{\boldsymbol\theta}{\mathrm{arg\,min}}\left[\frac{1}{2m}\|A\boldsymbol\theta-\mathbf d\|_2^2+\frac{\lambda}{2}\|\boldsymbol\theta\|_2^2\right].
 $$
 
 The project also derives and verifies a **discrete adjoint** of the explicit heat-equation time-stepper to compute gradients without explicitly constructing the response matrix for each optimization evaluation.
@@ -84,15 +84,15 @@ inverse-heat-source-reconstruction/
 ├── requirements.txt
 ├── .gitignore
 ├── notebooks/
-│   ├── 01_forward_heat_equation.ipynb
-│   ├── 02_general_spatial_heat_sources.ipynb
-│   ├── 03_observation_operator.ipynb
-│   ├── 04_inverse_problem.ipynb
-│   ├── 05_robustness.ipynb
-│   ├── 06_large_inverse.ipynb
-│   ├── 07_discretization_model_mismatch.ipynb
-│   ├── 08_discrete_adjoint.ipynb
-│   └── 09_validation.ipynb
+│   ├── 01_forward_heat_equation_colab.ipynb
+│   ├── 02_general_spatial_heat_sources_colab.ipynb
+│   ├── 03_observation_operator_colab.ipynb
+│   ├── 04_inverse_problem_colab.ipynb
+│   ├── 05_robustness_executed.ipynb
+│   ├── 06_large_inverse_colab.ipynb
+│   ├── 07_discretization_model_mismatch_colab.ipynb
+│   ├── 08_discrete_adjoint_colab.ipynb
+│   └── 09_validation_colab.ipynb
 ├── data/                       # Saved numerical arrays and JSON metrics
 ├── figures/                    # Original experimental figures
 ├── report/
@@ -107,15 +107,15 @@ inverse-heat-source-reconstruction/
 
 | Notebook | Focus |
 |---|---|
-| [01 — Forward heat equation](notebooks/01_forward_heat_equation.ipynb) | FTCS solver, analytical solution and initial mesh refinement |
-| [02 — Spatial heat sources](notebooks/02_general_spatial_heat_sources.ipynb) | General source shapes and linear superposition |
-| [03 — Observation operator](notebooks/03_observation_operator.ipynb) | Sensor observations and response-matrix assembly |
-| [04 — Inverse problem](notebooks/04_inverse_problem.ipynb) | Least squares, Tikhonov and source reconstruction |
-| [05 — Robustness](notebooks/05_robustness.ipynb) | Noise, sensor counts and regularization sensitivity |
-| [06 — Larger inverse](notebooks/06_large_inverse.ipynb) | 25-dimensional inversion and rank/conditioning |
-| [07 — Model mismatch](notebooks/07_discretization_model_mismatch.ipynb) | Cross-grid data, discretization and source mismatch |
-| [08 — Discrete adjoint](notebooks/08_discrete_adjoint.ipynb) | Adjoint derivation checks and gradient-based optimization |
-| [09 — Independent validation](notebooks/09_validation.ipynb) | Separate convergence tests, randomized sensor layouts and benchmarks |
+| [01 — Forward heat equation](notebooks/01_forward_heat_equation_colab.ipynb) | FTCS solver, analytical solution and initial mesh refinement |
+| [02 — Spatial heat sources](notebooks/02_general_spatial_heat_sources_colab.ipynb) | General source shapes and linear superposition |
+| [03 — Observation operator](notebooks/03_observation_operator_colab.ipynb) | Sensor observations and response-matrix assembly |
+| [04 — Inverse problem](notebooks/04_inverse_problem_colab.ipynb) | Least squares, Tikhonov and source reconstruction |
+| [05 — Robustness](notebooks/05_robustness_executed.ipynb) | Noise, sensor counts and regularization sensitivity |
+| [06 — Larger inverse](notebooks/06_large_inverse_colab.ipynb) | 25-dimensional inversion and rank/conditioning |
+| [07 — Model mismatch](notebooks/07_discretization_model_mismatch_colab.ipynb) | Cross-grid data, discretization and source mismatch |
+| [08 — Discrete adjoint](notebooks/08_discrete_adjoint_colab.ipynb) | Adjoint derivation checks and gradient-based optimization |
+| [09 — Independent validation](notebooks/09_validation_colab.ipynb) | Separate convergence tests, randomized sensor layouts and benchmarks |
 
 ## Getting started
 
