@@ -4,8 +4,7 @@
 
 An independent computational mathematics project investigating how accurately a spatially distributed heat source can be reconstructed from sparse, noisy temperature observations. The work combines a finite-difference heat-equation solver, Gaussian source parameterization, linear inverse problems, Tikhonov regularization, and discrete-adjoint optimization.
 
-> **Scope:** A reproducible numerical investigation of established methods using *synthetic data*. This repository does not claim a new inverse-problem algorithm, peer-reviewed publication, or experimental validation using physical sensors.
-
+> **Project Scope:** A computational investigation of established numerical methods for inverse heat-source reconstruction, using synthetic observations and reproducible experiments.
 ## Research problem
 
 We model heat diffusion on the unit square using the time-dependent PDE
@@ -138,8 +137,11 @@ For the full explanation and known reproducibility limitations, see **[docs/REPR
 
 ## Technical report
 
-Read the mathematical derivations, literature discussion, experimental designs, results and limitations in the [**Technical Report(PDF)**](report/Inverse_Heat_Source_Reconstruction_Technical_Report.pdf.pdf). 
-**Status:** The technical report is a public-review draft, not a peer-reviewed publication or a finalized thesis. Publication-facing typesetting and final editorial verification are still in progress.
+
+A comprehensive technical report accompanies this repository, presenting the mathematical foundations, numerical methodology, experimental results, and analysis of inverse heat-source reconstruction.
+
+The report covers finite-difference discretization and convergence, source identification, Tikhonov regularization, numerical conditioning, and discrete adjoint optimization.
+[** You can read the full technical report (PDF)**](report/Inverse_Heat_Source_Reconstruction_Technical_Report.pdf.pdf). 
 
 ## Key references
 
@@ -152,4 +154,4 @@ Read the mathematical derivations, literature discussion, experimental designs, 
 
 ## Project status
 
-Independent numerical research/portfolio study. The nine source notebooks and archived outputs are available for inspection. The methods investigated are established techniques, and the reported contributions are reproducible implementation, verification, experiments and critical comparison—not algorithmic novelty.
+Nine computational experiments covering numerical verification, inverse reconstruction, regularization, robustness, and optimization. The notebooks, results, and supporting documentation are provided for inspection and reproducibility.
