@@ -1,0 +1,1270 @@
+{
+  "experiment": "Task 9: three validation extensions",
+  "numpy_version": "2.1.3",
+  "seed": 20261018,
+  "spatial_convergence": {
+    "rows": [
+      {
+        "N": 12,
+        "steps": 2000,
+        "dt": 5e-05,
+        "temporal_vs_semidiscrete": 4.4411804953389757e-05,
+        "total_vs_continuous": 0.0005885693048282125,
+        "spatial_vs_exact_semidiscrete": 0.0005441333339313212,
+        "stability": 0.00288
+      },
+      {
+        "N": 24,
+        "steps": 2000,
+        "dt": 5e-05,
+        "temporal_vs_semidiscrete": 4.458319113633715e-05,
+        "total_vs_continuous": 0.00018081820455795737,
+        "spatial_vs_exact_semidiscrete": 0.000136228939900748,
+        "stability": 0.01152
+      },
+      {
+        "N": 48,
+        "steps": 2000,
+        "dt": 5e-05,
+        "temporal_vs_semidiscrete": 4.462610447328949e-05,
+        "total_vs_continuous": 7.869709249833384e-05,
+        "spatial_vs_exact_semidiscrete": 3.406946763742341e-05,
+        "stability": 0.04608
+      }
+    ],
+    "observed_orders": [
+      1.997926995509564,
+      1.9994819064872302
+    ]
+  },
+  "temporal_convergence": {
+    "rows": [
+      {
+        "N": 16,
+        "steps": 32,
+        "dt": 0.003125,
+        "temporal_vs_semidiscrete": 0.0027924217696787402,
+        "total_vs_continuous": 0.003099608859846666,
+        "stability": 0.32000000000000006
+      },
+      {
+        "N": 16,
+        "steps": 64,
+        "dt": 0.0015625,
+        "temporal_vs_semidiscrete": 0.0013935531745178102,
+        "total_vs_continuous": 0.0017003117469148138,
+        "stability": 0.16000000000000003
+      },
+      {
+        "N": 16,
+        "steps": 128,
+        "dt": 0.00078125,
+        "temporal_vs_semidiscrete": 0.0006961143269717203,
+        "total_vs_continuous": 0.0010026592517528292,
+        "stability": 0.08000000000000002
+      },
+      {
+        "N": 16,
+        "steps": 256,
+        "dt": 0.000390625,
+        "temporal_vs_semidiscrete": 0.0003478918682146714,
+        "total_vs_continuous": 0.0006543301214239631,
+        "stability": 0.04000000000000001
+      }
+    ],
+    "observed_orders": [
+      1.0027488107090128,
+      1.0013718801585012,
+      1.0006853107387128
+    ]
+  },
+  "sensor_placement": {
+    "6": {
+      "trials": [
+        {
+          "error": 0.4904485445981456,
+          "condition": 4759.321865946749,
+          "rank": 18,
+          "lambda_value": 8.441156284286382e-07
+        },
+        {
+          "error": 0.4935568498768512,
+          "condition": 16201.368403534045,
+          "rank": 18,
+          "lambda_value": 1.1928345417063036e-06
+        },
+        {
+          "error": 0.4283863908388477,
+          "condition": 8323.86251955619,
+          "rank": 18,
+          "lambda_value": 1.1345587938136406e-06
+        },
+        {
+          "error": 0.543806275316022,
+          "condition": 8676.268590785974,
+          "rank": 18,
+          "lambda_value": 4.727482059782365e-07
+        },
+        {
+          "error": 0.6679038409448903,
+          "condition": 14636.797853330689,
+          "rank": 18,
+          "lambda_value": 1.292491227398721e-06
+        },
+        {
+          "error": 0.5957154758875373,
+          "condition": 26515.184367002752,
+          "rank": 18,
+          "lambda_value": 1.0563347702460943e-06
+        },
+        {
+          "error": 0.5067378265874622,
+          "condition": 3080.3084516845256,
+          "rank": 18,
+          "lambda_value": 8.461928134008008e-07
+        },
+        {
+          "error": 0.5442280795913519,
+          "condition": 483822.1470769947,
+          "rank": 18,
+          "lambda_value": 1.6694919303141266e-06
+        },
+        {
+          "error": 0.42861678188837354,
+          "condition": 4616.7058494732755,
+          "rank": 18,
+          "lambda_value": 1.4319228960169051e-06
+        },
+        {
+          "error": 0.4295718965482195,
+          "condition": 3457.420131225862,
+          "rank": 18,
+          "lambda_value": 8.742400381926675e-07
+        },
+        {
+          "error": 0.45582358417538404,
+          "condition": 7621.15749874855,
+          "rank": 18,
+          "lambda_value": 9.897943762674968e-07
+        },
+        {
+          "error": 0.3113238105659726,
+          "condition": 3150.703996714439,
+          "rank": 18,
+          "lambda_value": 1.05253462587576e-06
+        },
+        {
+          "error": 0.4069819137116084,
+          "condition": 49721.27088569189,
+          "rank": 18,
+          "lambda_value": 1.156980698337908e-06
+        },
+        {
+          "error": 0.3392946290391503,
+          "condition": 4778.238066901548,
+          "rank": 18,
+          "lambda_value": 7.085033374413075e-07
+        },
+        {
+          "error": 0.3142057876441015,
+          "condition": 2148.908744115723,
+          "rank": 18,
+          "lambda_value": 5.385293438467396e-07
+        },
+        {
+          "error": 0.5737631709448173,
+          "condition": 176356.44861011693,
+          "rank": 18,
+          "lambda_value": 5.063609759450379e-07
+        },
+        {
+          "error": 0.37443585038191424,
+          "condition": 2286.4020193292995,
+          "rank": 18,
+          "lambda_value": 9.353669761457329e-07
+        },
+        {
+          "error": 0.32253759254674436,
+          "condition": 15277.368931253483,
+          "rank": 18,
+          "lambda_value": 1.1885132867505517e-06
+        },
+        {
+          "error": 0.40195508623669,
+          "condition": 11835.032015341618,
+          "rank": 18,
+          "lambda_value": 4.612517168655572e-07
+        },
+        {
+          "error": 0.34140839826648717,
+          "condition": 5489.49604793255,
+          "rank": 18,
+          "lambda_value": 5.625362252560226e-07
+        },
+        {
+          "error": 0.4961998800956708,
+          "condition": 11323.468461698909,
+          "rank": 18,
+          "lambda_value": 1.0562090131993407e-06
+        },
+        {
+          "error": 0.32300834904582854,
+          "condition": 9505.249950064008,
+          "rank": 18,
+          "lambda_value": 1.1273981757590898e-06
+        },
+        {
+          "error": 0.3202452496160339,
+          "condition": 11928.165370797778,
+          "rank": 18,
+          "lambda_value": 8.297111956643563e-07
+        },
+        {
+          "error": 0.37451650281536036,
+          "condition": 7827.780925513614,
+          "rank": 18,
+          "lambda_value": 7.954548237106385e-07
+        },
+        {
+          "error": 0.3933033834525516,
+          "condition": 2551.622491018466,
+          "rank": 18,
+          "lambda_value": 7.506049811754498e-07
+        },
+        {
+          "error": 0.41274543921029005,
+          "condition": 4405.559638715695,
+          "rank": 18,
+          "lambda_value": 6.845899994950716e-07
+        },
+        {
+          "error": 0.3282528799433168,
+          "condition": 2754.767389071144,
+          "rank": 18,
+          "lambda_value": 9.117145099147412e-07
+        },
+        {
+          "error": 0.5259283562319531,
+          "condition": 5701.579743418616,
+          "rank": 18,
+          "lambda_value": 1.1872635136975475e-06
+        },
+        {
+          "error": 0.2032988071895257,
+          "condition": 6128.901640735964,
+          "rank": 18,
+          "lambda_value": 9.97037282917091e-07
+        },
+        {
+          "error": 0.4437969213824988,
+          "condition": 5542.327462626991,
+          "rank": 18,
+          "lambda_value": 8.600691277151879e-07
+        },
+        {
+          "error": 0.3578654762957404,
+          "condition": 4131.60565501488,
+          "rank": 18,
+          "lambda_value": 8.922423523702899e-07
+        },
+        {
+          "error": 0.24537209314784028,
+          "condition": 3165.536536278434,
+          "rank": 18,
+          "lambda_value": 1.0940683979948938e-06
+        },
+        {
+          "error": 0.7246079852590047,
+          "condition": 8402.714286460443,
+          "rank": 18,
+          "lambda_value": 8.284812782815821e-07
+        },
+        {
+          "error": 0.6869960210587652,
+          "condition": 29775.391166856203,
+          "rank": 18,
+          "lambda_value": 8.016130481960718e-07
+        },
+        {
+          "error": 0.4361282257951842,
+          "condition": 4239.366825666815,
+          "rank": 18,
+          "lambda_value": 8.168773870962618e-07
+        },
+        {
+          "error": 0.5287559111765094,
+          "condition": 6774.422193981395,
+          "rank": 18,
+          "lambda_value": 9.51858314139725e-07
+        },
+        {
+          "error": 0.4801848185180758,
+          "condition": 6270.6691371957095,
+          "rank": 18,
+          "lambda_value": 1.368145067392432e-06
+        },
+        {
+          "error": 0.3724974666073257,
+          "condition": 4204.384675094239,
+          "rank": 18,
+          "lambda_value": 9.149506826890546e-07
+        },
+        {
+          "error": 0.2725586494518571,
+          "condition": 3823.076455930608,
+          "rank": 18,
+          "lambda_value": 9.361160294319623e-07
+        },
+        {
+          "error": 0.5878847352486312,
+          "condition": 3571.8272504094416,
+          "rank": 18,
+          "lambda_value": 9.275754742438538e-07
+        },
+        {
+          "error": 0.37767584071620847,
+          "condition": 3277.6622751000145,
+          "rank": 18,
+          "lambda_value": 9.194038721047614e-07
+        },
+        {
+          "error": 0.2612541285796207,
+          "condition": 6372.713825620759,
+          "rank": 18,
+          "lambda_value": 5.639802845082088e-07
+        },
+        {
+          "error": 0.34853910358618007,
+          "condition": 2941.1171493078045,
+          "rank": 18,
+          "lambda_value": 8.61735033798976e-07
+        },
+        {
+          "error": 0.31804845929576664,
+          "condition": 8073.475073380724,
+          "rank": 18,
+          "lambda_value": 9.516268532348578e-07
+        },
+        {
+          "error": 0.3744485100292303,
+          "condition": 3988.717585174535,
+          "rank": 18,
+          "lambda_value": 9.265164982793055e-07
+        },
+        {
+          "error": 0.32193697980745395,
+          "condition": 2890.2544522301773,
+          "rank": 18,
+          "lambda_value": 7.583654240632004e-07
+        },
+        {
+          "error": 0.3884981045534304,
+          "condition": 7870.703085535907,
+          "rank": 18,
+          "lambda_value": 9.620240682288284e-07
+        },
+        {
+          "error": 0.31524484522940643,
+          "condition": 2281.6980985598457,
+          "rank": 18,
+          "lambda_value": 7.091231335020439e-07
+        },
+        {
+          "error": 0.3105372950078584,
+          "condition": 2703.973639531503,
+          "rank": 18,
+          "lambda_value": 8.848017543040496e-07
+        },
+        {
+          "error": 0.3164766735781953,
+          "condition": 8243.94949535939,
+          "rank": 18,
+          "lambda_value": 7.041633579933047e-07
+        },
+        {
+          "error": 0.40883463493399735,
+          "condition": 1853.5940227429512,
+          "rank": 18,
+          "lambda_value": 9.027817866412747e-07
+        },
+        {
+          "error": 0.6382897765897548,
+          "condition": 39635.53409214646,
+          "rank": 18,
+          "lambda_value": 6.386615938873348e-07
+        },
+        {
+          "error": 0.39822053561605764,
+          "condition": 3085.986873540178,
+          "rank": 18,
+          "lambda_value": 1.0700172313192373e-06
+        },
+        {
+          "error": 0.35956295116186376,
+          "condition": 8779.558685757569,
+          "rank": 18,
+          "lambda_value": 7.972448579009591e-07
+        },
+        {
+          "error": 0.35865007893611944,
+          "condition": 3902.6130915741637,
+          "rank": 18,
+          "lambda_value": 1.053812753754126e-06
+        },
+        {
+          "error": 0.3108607356636186,
+          "condition": 2448.614013057553,
+          "rank": 18,
+          "lambda_value": 6.453646930692736e-07
+        },
+        {
+          "error": 0.42255275844788376,
+          "condition": 2736.420633744902,
+          "rank": 18,
+          "lambda_value": 8.082234567265921e-07
+        },
+        {
+          "error": 0.5633892026558821,
+          "condition": 6245.4565126560265,
+          "rank": 18,
+          "lambda_value": 9.978417388304343e-07
+        },
+        {
+          "error": 0.3367349788126426,
+          "condition": 2495.377356453975,
+          "rank": 18,
+          "lambda_value": 7.445233124684002e-07
+        },
+        {
+          "error": 0.32065955459865403,
+          "condition": 29982.4261227919,
+          "rank": 18,
+          "lambda_value": 5.666099987660197e-07
+        },
+        {
+          "error": 0.3757885328616625,
+          "condition": 9860.598372762286,
+          "rank": 18,
+          "lambda_value": 8.266174380718536e-07
+        },
+        {
+          "error": 0.40309663186222444,
+          "condition": 2780.3284458849166,
+          "rank": 18,
+          "lambda_value": 8.60448480391331e-07
+        },
+        {
+          "error": 0.4553022327476282,
+          "condition": 2098.699749983394,
+          "rank": 18,
+          "lambda_value": 9.965627075108882e-07
+        },
+        {
+          "error": 0.39313721301373283,
+          "condition": 7502.422571846532,
+          "rank": 18,
+          "lambda_value": 7.337091068068419e-07
+        },
+        {
+          "error": 0.5434655964005833,
+          "condition": 4004.06355086176,
+          "rank": 18,
+          "lambda_value": 1.0632301603108985e-06
+        },
+        {
+          "error": 0.5499692084986234,
+          "condition": 38072.18791859702,
+          "rank": 18,
+          "lambda_value": 1.4449930663943432e-06
+        },
+        {
+          "error": 0.3790472604545091,
+          "condition": 6703.3329695885395,
+          "rank": 18,
+          "lambda_value": 1.2351111560141068e-06
+        },
+        {
+          "error": 0.6375436866928185,
+          "condition": 51133.503822058476,
+          "rank": 18,
+          "lambda_value": 9.645165005498868e-07
+        },
+        {
+          "error": 0.3609401128538523,
+          "condition": 4218.792375615032,
+          "rank": 18,
+          "lambda_value": 7.758468581736715e-07
+        },
+        {
+          "error": 0.2791310277726502,
+          "condition": 3165.783469090655,
+          "rank": 18,
+          "lambda_value": 7.580169186750224e-07
+        },
+        {
+          "error": 0.31317951163206204,
+          "condition": 3765.5693713784967,
+          "rank": 18,
+          "lambda_value": 8.759922471065444e-07
+        },
+        {
+          "error": 0.6019519830287093,
+          "condition": 7435.188914791286,
+          "rank": 18,
+          "lambda_value": 7.901034716993044e-07
+        },
+        {
+          "error": 0.593804163535771,
+          "condition": 24908.201934712015,
+          "rank": 18,
+          "lambda_value": 9.643152639436307e-07
+        },
+        {
+          "error": 0.5888539292741242,
+          "condition": 2784.2156217538754,
+          "rank": 18,
+          "lambda_value": 8.567736257620509e-07
+        },
+        {
+          "error": 0.39640407646618053,
+          "condition": 5211.702130798365,
+          "rank": 18,
+          "lambda_value": 9.501202431915964e-07
+        },
+        {
+          "error": 0.32284458242291253,
+          "condition": 3461.9602101735823,
+          "rank": 18,
+          "lambda_value": 9.288045384368248e-07
+        },
+        {
+          "error": 0.42466082311777525,
+          "condition": 1898.8725928543122,
+          "rank": 18,
+          "lambda_value": 7.777511836441149e-07
+        },
+        {
+          "error": 0.27902926916666493,
+          "condition": 2906.164293366418,
+          "rank": 18,
+          "lambda_value": 9.165502904493834e-07
+        },
+        {
+          "error": 0.25791287401121066,
+          "condition": 2975.9668487753574,
+          "rank": 18,
+          "lambda_value": 1.1903989144992388e-06
+        },
+        {
+          "error": 0.392136938865446,
+          "condition": 3864.9830949692446,
+          "rank": 18,
+          "lambda_value": 1.00560556759277e-06
+        },
+        {
+          "error": 0.42207367370140386,
+          "condition": 5755.558386361066,
+          "rank": 18,
+          "lambda_value": 1.012349905848532e-06
+        },
+        {
+          "error": 0.4336501994068731,
+          "condition": 9624.136256250937,
+          "rank": 18,
+          "lambda_value": 8.485562318859049e-07
+        },
+        {
+          "error": 0.5122286323462353,
+          "condition": 5378.984149193963,
+          "rank": 18,
+          "lambda_value": 8.056726936835165e-07
+        },
+        {
+          "error": 0.4177736157091072,
+          "condition": 10120.747963924368,
+          "rank": 18,
+          "lambda_value": 7.989122062733373e-07
+        },
+        {
+          "error": 0.5384449198904692,
+          "condition": 3459.9452579173662,
+          "rank": 18,
+          "lambda_value": 7.760414542929857e-07
+        },
+        {
+          "error": 0.4390601226779344,
+          "condition": 4181.111227756813,
+          "rank": 18,
+          "lambda_value": 1.0834185398982345e-06
+        },
+        {
+          "error": 0.44517768604296204,
+          "condition": 25390.775251785235,
+          "rank": 18,
+          "lambda_value": 7.722598291067325e-07
+        },
+        {
+          "error": 0.41340363783670847,
+          "condition": 5051.4013771467535,
+          "rank": 18,
+          "lambda_value": 8.49617656420181e-07
+        },
+        {
+          "error": 0.45695047507472203,
+          "condition": 3562.8409237676556,
+          "rank": 18,
+          "lambda_value": 9.18138730583745e-07
+        },
+        {
+          "error": 0.3726457226471352,
+          "condition": 4961.513880519942,
+          "rank": 18,
+          "lambda_value": 6.062010521706586e-07
+        }
+      ],
+      "mean_error": 0.42149858249938943,
+      "median_error": 0.40252585904945726,
+      "p10": 0.3112775030757372,
+      "p90": 0.5879816546511805,
+      "median_condition": 5006.457628833348,
+      "rank_min": 18,
+      "rank_max": 18
+    },
+    "16": {
+      "trials": [
+        {
+          "error": 0.24727497610169005,
+          "condition": 497.985074342775,
+          "rank": 25,
+          "lambda_value": 4.2963664036627474e-07
+        },
+        {
+          "error": 0.2878320156278296,
+          "condition": 1146.897902691912,
+          "rank": 25,
+          "lambda_value": 8.216524503485032e-07
+        },
+        {
+          "error": 0.24719037096001223,
+          "condition": 1543.1888864528676,
+          "rank": 25,
+          "lambda_value": 6.12086473576042e-07
+        },
+        {
+          "error": 0.270999882448659,
+          "condition": 3236.227481330987,
+          "rank": 25,
+          "lambda_value": 1.0843436974923872e-06
+        },
+        {
+          "error": 0.14706647049366214,
+          "condition": 1586.478771372946,
+          "rank": 25,
+          "lambda_value": 6.969119092399403e-07
+        },
+        {
+          "error": 0.20586067678114792,
+          "condition": 664.341641889733,
+          "rank": 25,
+          "lambda_value": 8.618225439834928e-07
+        },
+        {
+          "error": 0.1747829311794498,
+          "condition": 1162.6578085909184,
+          "rank": 25,
+          "lambda_value": 5.093433876765e-07
+        },
+        {
+          "error": 0.23488005282459545,
+          "condition": 1579.291319339572,
+          "rank": 25,
+          "lambda_value": 8.211093649982965e-07
+        },
+        {
+          "error": 0.19513751927785966,
+          "condition": 1573.4409770740128,
+          "rank": 25,
+          "lambda_value": 5.700422969467546e-07
+        },
+        {
+          "error": 0.2986412522632574,
+          "condition": 1561.9423972284621,
+          "rank": 25,
+          "lambda_value": 6.291476726447966e-07
+        },
+        {
+          "error": 0.1964466629575538,
+          "condition": 1610.9602067863843,
+          "rank": 25,
+          "lambda_value": 7.499513789267468e-07
+        },
+        {
+          "error": 0.14590547644852994,
+          "condition": 550.9415462904498,
+          "rank": 25,
+          "lambda_value": 7.576997383327944e-07
+        },
+        {
+          "error": 0.16024275272117042,
+          "condition": 1115.5261452024454,
+          "rank": 25,
+          "lambda_value": 6.083497314391238e-07
+        },
+        {
+          "error": 0.19688489884606944,
+          "condition": 1129.6717863362749,
+          "rank": 25,
+          "lambda_value": 8.288112309433109e-07
+        },
+        {
+          "error": 0.18005970610194436,
+          "condition": 1848.7265172808266,
+          "rank": 25,
+          "lambda_value": 7.592091353347579e-07
+        },
+        {
+          "error": 0.20473086877068922,
+          "condition": 961.196392909304,
+          "rank": 25,
+          "lambda_value": 6.952414666645144e-07
+        },
+        {
+          "error": 0.2977052786380466,
+          "condition": 2335.236950596787,
+          "rank": 25,
+          "lambda_value": 8.682248804322089e-07
+        },
+        {
+          "error": 0.22328576556741234,
+          "condition": 1019.379109515479,
+          "rank": 25,
+          "lambda_value": 8.555455036190072e-07
+        },
+        {
+          "error": 0.27341333162614156,
+          "condition": 2860.1875624151753,
+          "rank": 25,
+          "lambda_value": 7.118214299110831e-07
+        },
+        {
+          "error": 0.14515369768137898,
+          "condition": 4169.624873122038,
+          "rank": 25,
+          "lambda_value": 6.27504909235907e-07
+        },
+        {
+          "error": 0.2089508219506982,
+          "condition": 1132.7824038345066,
+          "rank": 25,
+          "lambda_value": 8.190073403498962e-07
+        },
+        {
+          "error": 0.14902608589449337,
+          "condition": 336.9635802430843,
+          "rank": 25,
+          "lambda_value": 9.22831135816996e-07
+        },
+        {
+          "error": 0.3416456334481416,
+          "condition": 3276.3599278599663,
+          "rank": 25,
+          "lambda_value": 4.1663657570439606e-07
+        },
+        {
+          "error": 0.23868459506068812,
+          "condition": 1578.2462031093578,
+          "rank": 25,
+          "lambda_value": 6.371776113844379e-07
+        },
+        {
+          "error": 0.3106273796782017,
+          "condition": 769.5521822492993,
+          "rank": 25,
+          "lambda_value": 7.822595967944955e-07
+        },
+        {
+          "error": 0.16713261376505373,
+          "condition": 406.09949315985824,
+          "rank": 25,
+          "lambda_value": 6.065508947307127e-07
+        },
+        {
+          "error": 0.14037697113114672,
+          "condition": 585.1749887105457,
+          "rank": 25,
+          "lambda_value": 6.095090730612202e-07
+        },
+        {
+          "error": 0.18375607099048666,
+          "condition": 2370.9431023145876,
+          "rank": 25,
+          "lambda_value": 6.776882933377935e-07
+        },
+        {
+          "error": 0.1533429346662184,
+          "condition": 813.0593590267723,
+          "rank": 25,
+          "lambda_value": 8.700490532428511e-07
+        },
+        {
+          "error": 0.23503022959497363,
+          "condition": 727.6331208637425,
+          "rank": 25,
+          "lambda_value": 5.96849039122945e-07
+        },
+        {
+          "error": 0.20485802470017433,
+          "condition": 1213.4549109153866,
+          "rank": 25,
+          "lambda_value": 4.6922611858696675e-07
+        },
+        {
+          "error": 0.32620126530287163,
+          "condition": 1142.281460044949,
+          "rank": 25,
+          "lambda_value": 7.909661428458677e-07
+        },
+        {
+          "error": 0.15026051294568069,
+          "condition": 2705.1662263321487,
+          "rank": 25,
+          "lambda_value": 5.163288979014351e-07
+        },
+        {
+          "error": 0.36283321300173277,
+          "condition": 4275.004456966147,
+          "rank": 25,
+          "lambda_value": 6.424842538811603e-07
+        },
+        {
+          "error": 0.14406723983858627,
+          "condition": 908.5308443210847,
+          "rank": 25,
+          "lambda_value": 6.305413351611287e-07
+        },
+        {
+          "error": 0.13184183258883567,
+          "condition": 1014.9446437037784,
+          "rank": 25,
+          "lambda_value": 7.13532327779752e-07
+        },
+        {
+          "error": 0.12778061625361575,
+          "condition": 345.1886985402068,
+          "rank": 25,
+          "lambda_value": 6.954777379684605e-07
+        },
+        {
+          "error": 0.21083677579784219,
+          "condition": 737.429841348,
+          "rank": 25,
+          "lambda_value": 8.766904108274662e-07
+        },
+        {
+          "error": 0.26760664531086065,
+          "condition": 1323.9074351735867,
+          "rank": 25,
+          "lambda_value": 6.348392936701646e-07
+        },
+        {
+          "error": 0.1399300955371919,
+          "condition": 407.6108995934575,
+          "rank": 25,
+          "lambda_value": 6.826070015753774e-07
+        },
+        {
+          "error": 0.21649706360940232,
+          "condition": 613.427921664698,
+          "rank": 25,
+          "lambda_value": 7.665057216393765e-07
+        },
+        {
+          "error": 0.33328734977871133,
+          "condition": 237353.61902417766,
+          "rank": 25,
+          "lambda_value": 9.094198330902789e-07
+        },
+        {
+          "error": 0.17877251335258154,
+          "condition": 534.045452368696,
+          "rank": 25,
+          "lambda_value": 5.140585763580482e-07
+        },
+        {
+          "error": 0.4279012887415411,
+          "condition": 3819.9856456983666,
+          "rank": 25,
+          "lambda_value": 8.529958044866458e-07
+        },
+        {
+          "error": 0.16241796729410748,
+          "condition": 432.4740908994626,
+          "rank": 25,
+          "lambda_value": 8.991166650805178e-07
+        },
+        {
+          "error": 0.2087270500094922,
+          "condition": 694.4640810851475,
+          "rank": 25,
+          "lambda_value": 7.259263193681028e-07
+        },
+        {
+          "error": 0.3496587003810349,
+          "condition": 1575.700704043208,
+          "rank": 25,
+          "lambda_value": 6.145241592336365e-07
+        },
+        {
+          "error": 0.15248900259886844,
+          "condition": 481.6590935344352,
+          "rank": 25,
+          "lambda_value": 7.401989411061641e-07
+        },
+        {
+          "error": 0.2050844323861808,
+          "condition": 367.7422091985622,
+          "rank": 25,
+          "lambda_value": 3.923235986551445e-07
+        },
+        {
+          "error": 0.1527461010733235,
+          "condition": 585.9050634705444,
+          "rank": 25,
+          "lambda_value": 5.555213864332891e-07
+        },
+        {
+          "error": 0.14910359207891524,
+          "condition": 536.9960026451112,
+          "rank": 25,
+          "lambda_value": 9.249284482129691e-07
+        },
+        {
+          "error": 0.24862416912802549,
+          "condition": 373.8705467645393,
+          "rank": 25,
+          "lambda_value": 3.614211499455478e-07
+        },
+        {
+          "error": 0.2334777731561917,
+          "condition": 1796.6475386457873,
+          "rank": 25,
+          "lambda_value": 6.26193901694132e-07
+        },
+        {
+          "error": 0.14772026428391147,
+          "condition": 349.61886397299037,
+          "rank": 25,
+          "lambda_value": 8.662931200534478e-07
+        },
+        {
+          "error": 0.2705621571557319,
+          "condition": 397.36419350552825,
+          "rank": 25,
+          "lambda_value": 7.688373267261441e-07
+        },
+        {
+          "error": 0.21994804327572373,
+          "condition": 739.230013854933,
+          "rank": 25,
+          "lambda_value": 7.359718408150943e-07
+        },
+        {
+          "error": 0.17804772769772634,
+          "condition": 985.6847995171137,
+          "rank": 25,
+          "lambda_value": 6.544862403790003e-07
+        },
+        {
+          "error": 0.1869057813318733,
+          "condition": 679.6996893146901,
+          "rank": 25,
+          "lambda_value": 6.628450042171769e-07
+        },
+        {
+          "error": 0.2230636613495766,
+          "condition": 901.7525780594563,
+          "rank": 25,
+          "lambda_value": 5.749158985644006e-07
+        },
+        {
+          "error": 0.11881048160348472,
+          "condition": 740.5278317994517,
+          "rank": 25,
+          "lambda_value": 3.9045623311981965e-07
+        },
+        {
+          "error": 0.12895473126749682,
+          "condition": 814.8782485648009,
+          "rank": 25,
+          "lambda_value": 5.746896245950949e-07
+        },
+        {
+          "error": 0.1971616217585345,
+          "condition": 439.3553825981899,
+          "rank": 25,
+          "lambda_value": 9.400488067789731e-07
+        },
+        {
+          "error": 0.17018404969501946,
+          "condition": 1698.3211099060243,
+          "rank": 25,
+          "lambda_value": 8.406177732365331e-07
+        },
+        {
+          "error": 0.29787043193899704,
+          "condition": 10646.987844821846,
+          "rank": 25,
+          "lambda_value": 6.748331146106544e-07
+        },
+        {
+          "error": 0.26898184128511354,
+          "condition": 2032.8511618142675,
+          "rank": 25,
+          "lambda_value": 5.588476338622269e-07
+        },
+        {
+          "error": 0.19326167515380782,
+          "condition": 3882.215651076042,
+          "rank": 25,
+          "lambda_value": 6.242967582607841e-07
+        },
+        {
+          "error": 0.1677598573685672,
+          "condition": 1444.7689129677976,
+          "rank": 25,
+          "lambda_value": 6.492254774662094e-07
+        },
+        {
+          "error": 0.18146595284736913,
+          "condition": 1776.4866792103264,
+          "rank": 25,
+          "lambda_value": 6.649962932612562e-07
+        },
+        {
+          "error": 0.15179765637167528,
+          "condition": 338.89365864460206,
+          "rank": 25,
+          "lambda_value": 6.567436090329968e-07
+        },
+        {
+          "error": 0.11437782359804635,
+          "condition": 454.6435295085579,
+          "rank": 25,
+          "lambda_value": 6.440472800362627e-07
+        },
+        {
+          "error": 0.25255841017587677,
+          "condition": 2760.8232155512746,
+          "rank": 25,
+          "lambda_value": 7.399110618837621e-07
+        },
+        {
+          "error": 0.12328488485254856,
+          "condition": 688.9036871354537,
+          "rank": 25,
+          "lambda_value": 9.558961728884475e-07
+        },
+        {
+          "error": 0.18650120270253265,
+          "condition": 1994.7698704775755,
+          "rank": 25,
+          "lambda_value": 9.363361475745223e-07
+        },
+        {
+          "error": 0.10599538769625012,
+          "condition": 1667.697117085251,
+          "rank": 25,
+          "lambda_value": 5.573395579036808e-07
+        },
+        {
+          "error": 0.17346622559824304,
+          "condition": 657.0589250393916,
+          "rank": 25,
+          "lambda_value": 7.895998733443784e-07
+        },
+        {
+          "error": 0.2739643232856105,
+          "condition": 410.8025504263837,
+          "rank": 25,
+          "lambda_value": 6.823391723338532e-07
+        },
+        {
+          "error": 0.2085091352413647,
+          "condition": 931.7548608889634,
+          "rank": 25,
+          "lambda_value": 9.472573292937352e-07
+        },
+        {
+          "error": 0.12688139954889427,
+          "condition": 508.23131903914333,
+          "rank": 25,
+          "lambda_value": 6.941421254648702e-07
+        },
+        {
+          "error": 0.18828197078746842,
+          "condition": 807.6119997221034,
+          "rank": 25,
+          "lambda_value": 6.169098859065823e-07
+        },
+        {
+          "error": 0.16513002210920238,
+          "condition": 671.9189957122798,
+          "rank": 25,
+          "lambda_value": 7.110175286115793e-07
+        },
+        {
+          "error": 0.15816998493389495,
+          "condition": 789.5822350356916,
+          "rank": 25,
+          "lambda_value": 6.734853819382012e-07
+        },
+        {
+          "error": 0.2545013182259337,
+          "condition": 1114.7663441573263,
+          "rank": 25,
+          "lambda_value": 5.298014285467736e-07
+        },
+        {
+          "error": 0.20356730058335792,
+          "condition": 2927.5394866334204,
+          "rank": 25,
+          "lambda_value": 5.959286506032206e-07
+        },
+        {
+          "error": 0.16585169420384924,
+          "condition": 293.8627656764462,
+          "rank": 25,
+          "lambda_value": 5.149795708721121e-07
+        },
+        {
+          "error": 0.2683173846706314,
+          "condition": 3199.6731719346963,
+          "rank": 25,
+          "lambda_value": 6.062284077950436e-07
+        },
+        {
+          "error": 0.17443684997486564,
+          "condition": 1365.7278877739072,
+          "rank": 25,
+          "lambda_value": 7.492728605299559e-07
+        },
+        {
+          "error": 0.19109661144941995,
+          "condition": 561.6497248139038,
+          "rank": 25,
+          "lambda_value": 7.194154729060729e-07
+        },
+        {
+          "error": 0.26093611360615365,
+          "condition": 4204.0162462604985,
+          "rank": 25,
+          "lambda_value": 8.931412785794215e-07
+        },
+        {
+          "error": 0.3067122553114262,
+          "condition": 1335.8944914271842,
+          "rank": 25,
+          "lambda_value": 7.905641276629826e-07
+        },
+        {
+          "error": 0.3130798824065467,
+          "condition": 1759.3959963219097,
+          "rank": 25,
+          "lambda_value": 6.645731094419424e-07
+        }
+      ],
+      "mean_error": 0.20961319181899662,
+      "median_error": 0.19666578090181164,
+      "p10": 0.14033228357175123,
+      "p90": 0.29944835256807434,
+      "median_condition": 1017.1618766096287,
+      "rank_min": 25,
+      "rank_max": 25
+    }
+  },
+  "end_to_end": {
+    "25": {
+      "repeats": [
+        {
+          "matrix_total_s": 0.11202466600002481,
+          "adjoint_total_s": 1.5820070290000103,
+          "iterations": 120,
+          "evaluations": 129,
+          "success": true,
+          "relative_coefficient_gap": 0.0003128690482203079,
+          "objective_gap": 1.236318223326921e-13,
+          "gradient_norm": 3.684178585918302e-10
+        },
+        {
+          "matrix_total_s": 0.12562057700006335,
+          "adjoint_total_s": 1.5858180459999858,
+          "iterations": 120,
+          "evaluations": 129,
+          "success": true,
+          "relative_coefficient_gap": 0.0003128690482203079,
+          "objective_gap": 1.236318223326921e-13,
+          "gradient_norm": 3.684178585918302e-10
+        },
+        {
+          "matrix_total_s": 0.12791848100005154,
+          "adjoint_total_s": 1.5705132450000292,
+          "iterations": 120,
+          "evaluations": 129,
+          "success": true,
+          "relative_coefficient_gap": 0.0003128690482203079,
+          "objective_gap": 1.236318223326921e-13,
+          "gradient_norm": 3.684178585918302e-10
+        }
+      ],
+      "matrix_median_s": 0.12562057700006335,
+      "adjoint_median_s": 1.5820070290000103,
+      "median_relative_coefficient_gap": 0.0003128690482203079
+    },
+    "100": {
+      "repeats": [
+        {
+          "matrix_total_s": 0.44492211000010684,
+          "adjoint_total_s": 4.623725035000007,
+          "iterations": 210,
+          "evaluations": 222,
+          "success": true,
+          "relative_coefficient_gap": 0.00012663190975130425,
+          "objective_gap": 1.0093764508305268e-13,
+          "gradient_norm": 9.322698373958777e-10
+        },
+        {
+          "matrix_total_s": 0.4562444630000755,
+          "adjoint_total_s": 2.798414259000083,
+          "iterations": 210,
+          "evaluations": 222,
+          "success": true,
+          "relative_coefficient_gap": 0.00012663190975130425,
+          "objective_gap": 1.0093764508305268e-13,
+          "gradient_norm": 9.322698373958777e-10
+        },
+        {
+          "matrix_total_s": 0.4435146739999709,
+          "adjoint_total_s": 2.8100679579999905,
+          "iterations": 210,
+          "evaluations": 222,
+          "success": true,
+          "relative_coefficient_gap": 0.00012663190975130425,
+          "objective_gap": 1.0093764508305268e-13,
+          "gradient_norm": 9.322698373958777e-10
+        }
+      ],
+      "matrix_median_s": 0.44492211000010684,
+      "adjoint_median_s": 2.8100679579999905,
+      "median_relative_coefficient_gap": 0.00012663190975130425
+    }
+  },
+  "definitions": {
+    "sensor_error": "spatial discrete relative L2 norm of B(theta_est-theta_true) divided by norm(B theta_true)",
+    "sensor_noise": "Gaussian standard deviation 3% of maximum clean observation for each sensor layout",
+    "condition": "sigma_max/sigma_min on positive singular values; rectangular condition for sparse configurations",
+    "regularization": "lambda=10^-3 sigma_max(A)^2/m for random sensor experiments; lambda=10^-7 for timing comparison",
+    "timing": "median of three sequential wall-clock measurements on this runtime; matrices rebuilt every repetition",
+    "spatial": "pure spatial error: exact semi-discrete heat-equation solution versus exact continuum solution at the same interior grid nodes; total FTCS error also reported independently",
+    "temporal": "time-stepping error vs exact semi-discrete sinusoidal amplitude for fixed spatial grid"
+  }
+}

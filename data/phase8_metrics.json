@@ -1,0 +1,23 @@
+{
+  "nx": 24,
+  "nt": 64,
+  "dt": 0.0015625,
+  "stability": 0.3600000000000001,
+  "n_observations": 48,
+  "finite_difference_gradient_relative_error": 5.5157569722909345e-11,
+  "adjoint_vs_matrix_gradient_relative_error": 7.980403390968135e-16,
+  "optimizer_vs_direct_relative_error": 5.0905687375045536e-05,
+  "p25_iterations": 179,
+  "p25_success": true,
+  "p25_objective": 2.339057054881235e-06,
+  "p25_time_s": 4.927752847000022,
+  "p25_gradient_evaluations": 192,
+  "p25_source_relative_error": 0.09430198232673365,
+  "p100_iterations": 211,
+  "p100_success": true,
+  "p100_time_s": 8.480255026999998,
+  "p100_objective": 5.238637380167158e-06,
+  "p100_gradient_evaluations": 224,
+  "adjoint_gradient_time100_s": 0.03114522499998884,
+  "explicit_matrix_build_time100_s": 0.8758013480000386
+}
