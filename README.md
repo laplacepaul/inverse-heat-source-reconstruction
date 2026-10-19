@@ -138,7 +138,7 @@ For the full explanation and known reproducibility limitations, see **[docs/REPR
 
 ## Technical report
 
-Read the mathematical derivations, literature discussion, experimental designs, results and limitations in the [**Technical Report — review version 0.9 (PDF)**](report/Inverse_Heat_Source_Reconstruction_Technical_Report.pdf.pdf). The [editable Markdown source](report/technical_report_v0.9.md) is also included.
+Read the mathematical derivations, literature discussion, experimental designs, results and limitations in the [**Technical Report — review version 0.9 (PDF)**](report/Inverse_Heat_Source_Reconstruction_Technical_Report.pdf.pdf). The [editable Markdown source](report/technical_report.md) is also included.
 
 **Status:** The technical report is a public-review draft, not a peer-reviewed publication or a finalized thesis. Publication-facing typesetting and final editorial verification are still in progress.
 
